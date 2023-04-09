@@ -22,3 +22,4 @@
     
 **gamma:**    
 function that performs gamma correction on an image with a given gamma
+
