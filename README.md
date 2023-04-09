@@ -2,13 +2,14 @@
 
 **ex1_utils:**
 1. **imReadAndConvert**(filename: str, representation: int)
-   Reads an image, and returns the image converted as requested (GRAY_SCALE (1) or RGB (2))
+   Reads image and returns the image converted as requested (GRAY_SCALE (1) or RGB (2))
    
 2. **imDisplay**(filename: str, representation: int)
-    Reads an image as RGB or GRAY_SCALE with imReadAndConvert and displays it
+    Reads image as RGB or GRAY_SCALE with imReadAndConvert and displays it
     
 3. **transformRGB2YIQ**(imgRGB: np.ndarray)
     Converts an RGB image to YIQ color space
+    
     ![Alt text](images/1.png)
     
 4. **transformYIQ2RGB**(imgYIQ: np.ndarray)
@@ -16,6 +17,7 @@
    
 5. **hsitogramEqualize**(imgOrig: np.ndarray)
     Equalizes the histogram of an imag
+    
     ![Alt text](images/2.png)
     
 6. **quantizeImage**(imOrig: np.ndarray, nQuant: int, nIter: int)
